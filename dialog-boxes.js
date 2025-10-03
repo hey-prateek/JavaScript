@@ -1,11 +1,13 @@
-// Alert - simple popup message
+// ================== Alert ==================
+// Simple popup message (no return value)
 alert("Welcome to JavaScript!");
 
-// Prompt - takes user input
+// ================== Prompt ==================
+// Asks user for input (returns string or null if cancelled)
 let name = prompt("Enter your name:");
-console.log("User entered name:", name);
+console.log("Prompt result (name):", name);
 
-// Confirm - ask user Yes/No
+// ================== Confirm ==================
+// Asks Yes/No (returns true for OK, false for Cancel)
 let isConfirmed = confirm("Do you really want to continue?");
-console.log("User confirmation:", isConfirmed);
-
+console.log("Confirm result:", isConfirmed);
