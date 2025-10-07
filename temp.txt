@@ -1,4 +1,6 @@
-async await
-promises
 callback
 callback hell
+promises (then and catch)
+promise chain
+async await
+IIFE
