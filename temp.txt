@@ -1,6 +1,3 @@
-callback
-callback hell
-promises (then and catch)
-promise chain
-async await
-IIFE
+fetch() method
+json() method
+http requests
